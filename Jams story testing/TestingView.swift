@@ -106,13 +106,6 @@ struct Chapter3View: View {
 }
 
 
-struct Chapter4View: View {
-    @Binding var navigateToNextChapter: Bool
-    var body: some View {
-        Text("This is Chapter 4")
-    }
-}
-
 struct Chapter5View: View {
     var body: some View {
         Text("This is Chapter 5")
@@ -147,7 +140,7 @@ struct TestingView: View {
                 .disabled(chapterUnlocker.isChapter3Disabled)
                 
                 NavigationLink(destination: {
-                    Chapter4View(navigateToNextChapter: $navigateToNextChapter)
+                    Chapter4View()
                 }, label: {
                     Text("Chapter 4")
                 })

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0602A2CA2B06AC6700BBF90D /* Shoeswapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A2C92B06AC6700BBF90D /* Shoeswapview.swift */; };
+		0602A2CC2B06B17C00BBF90D /* Falseslippercastleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A2CB2B06B17C00BBF90D /* Falseslippercastleview.swift */; };
+		06E8299B2B02C57100F46366 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8299A2B02C57100F46366 /* Chapter4View.swift */; };
 		16550F612B005B7100B8FAC0 /* Jams_story_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16550F602B005B7100B8FAC0 /* Jams_story_testingApp.swift */; };
 		16550F632B005B7100B8FAC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16550F622B005B7100B8FAC0 /* ContentView.swift */; };
 		16550F652B005B7200B8FAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16550F642B005B7200B8FAC0 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0602A2C92B06AC6700BBF90D /* Shoeswapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoeswapview.swift; sourceTree = "<group>"; };
+		0602A2CB2B06B17C00BBF90D /* Falseslippercastleview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falseslippercastleview.swift; sourceTree = "<group>"; };
+		06E8299A2B02C57100F46366 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		16550F5D2B005B7100B8FAC0 /* Jams story testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jams story testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16550F602B005B7100B8FAC0 /* Jams_story_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jams_story_testingApp.swift; sourceTree = "<group>"; };
 		16550F622B005B7100B8FAC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0601C5E02B031DD6004F09F8 /* story copy command c */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "story copy command c";
+			sourceTree = "<group>";
+		};
+		06E829992B02C55B00F46366 /* Jamar Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E8299A2B02C57100F46366 /* Chapter4View.swift */,
+				0602A2CB2B06B17C00BBF90D /* Falseslippercastleview.swift */,
+				0602A2C92B06AC6700BBF90D /* Shoeswapview.swift */,
+				0601C5E02B031DD6004F09F8 /* story copy command c */,
+			);
+			path = "Jamar Files";
+			sourceTree = "<group>";
+		};
 		16550F542B005B7100B8FAC0 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +79,7 @@
 		16550F5F2B005B7100B8FAC0 /* Jams story testing */ = {
 			isa = PBXGroup;
 			children = (
+				06E829992B02C55B00F46366 /* Jamar Files */,
 				16550F602B005B7100B8FAC0 /* Jams_story_testingApp.swift */,
 				16550F622B005B7100B8FAC0 /* ContentView.swift */,
 				16550F702B006A9800B8FAC0 /* TestingView.swift */,
@@ -144,8 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				16550F632B005B7100B8FAC0 /* ContentView.swift in Sources */,
+				06E8299B2B02C57100F46366 /* Chapter4View.swift in Sources */,
 				16550F712B006A9800B8FAC0 /* TestingView.swift in Sources */,
 				16550F612B005B7100B8FAC0 /* Jams_story_testingApp.swift in Sources */,
+				0602A2CC2B06B17C00BBF90D /* Falseslippercastleview.swift in Sources */,
+				0602A2CA2B06AC6700BBF90D /* Shoeswapview.swift in Sources */,
 				16550F6F2B005ECA00B8FAC0 /* ChapterUnlocker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
